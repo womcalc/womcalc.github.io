@@ -1,5 +1,3 @@
-
-
 function $function(f){
    var results=f;
   return(results);
@@ -35,14 +33,10 @@ womurl='https://womcalc.github.io/index.html?query=';
 
 function MyUrl(){
 let MyUrl=$randomize('https://sikiteni.droppages.com','https://sklatex.droppages.net','https://universeofmathematics.droppages.com','https://womcalculator.droppages.com');
-//$MyUrl()=$randomize('https://sikiteni.droppages.com','https://sklatex.droppages.net','https://universeofmathematics.droppages.com','https://womcalculator.droppages.com');
-//$randomize('https://sikiteni.droppages.com','https://sklatex.droppages.net','https://universeofmathematics.droppages.com','https://womcalculator.droppages.com');
  return MyUrl;
  }
 function MyUrlName(){
 let MyUrl=$randomize('Sikiteni','Sklatex','Universeofmaths','Sk10-Real');
-//$MyUrl()=$randomize('https://sikiteni.droppages.com','https://sklatex.droppages.net','https://universeofmathematics.droppages.com','https://womcalculator.droppages.com');
-//$randomize('https://sikiteni.droppages.com','https://sklatex.droppages.net','https://universeofmathematics.droppages.com','https://womcalculator.droppages.com');
  return MyUrl;
  }
 
@@ -244,12 +238,12 @@ SkHead20.innerHTML= '<div class="mbr-overlay" style="opacity: 0.72; background-i
 		function siki21(){
       const btnText=document.getElementById("SkRez20").innerHTML;
   	SkHead21=document.getElementById("SkRez20");  
-SkHead21.innerHTML= '<a class="btn btn-success display-4" href="#'+['starthere','womaths'][+(btnText=="Click here")]+'"><i class="fa fa-angle-double-down"></i> '+[btnText,"Calculator"][+(btnText=="")]+' <i class="fa fa-angle-double-down"></i></a> ';
+SkHead21.innerHTML= '<a class="btn btn-success display-4" href="#'+['starthere','womaths'][+(btnText=="Click here")]+'"><i class="fa fa-angle-double-down"></i> '+[btnText,"Calculator"][+(btnText=="")]+' <i class="fa fa-angle-double-down"></i></a>  <a class="btn btn-info display-4" href="https://www.youtube.com/channel/UCSZ0jsywkmvFYE_N9in_iag?sub_confirmation=1" target="_blank"><i class="fa fa-youtube"></i> Subscribe</a>';
 		};
         function $url(text,word){
             let val='';
             //'+MyUrl()+'
-            val+=' <a href="calc/wom/index.html?q='+word+'()" style="color:#a2e6df !important;">'+
+            val+=' <a href="'+MyUrl()+'/calc/wom/index.html?q='+word+'()" style="color:#a2e6df !important;">'+
             text+
             '</a>';
             return val;
@@ -257,7 +251,7 @@ SkHead21.innerHTML= '<a class="btn btn-success display-4" href="#'+['starthere',
         function $url2(text,url){
             let val='';
             //'+MyUrl()+'
-            val+=' <a href="'+url+'" style="color:#a2e6df !important;">'+
+            val+=' <a href="'+MyUrl()+'/'+url+'" style="color:#a2e6df !important;">'+
             text+
             '</a>';
             return val;
@@ -302,10 +296,6 @@ SkHead23.innerHTML= '<div class="subsectionegorange" >'+
 		};
 
 
-//LATEST 
-
-
-//NOTES
 		function siki25(){
       
          var endTime = new Date("February 12, 2021 10:30:00 PDT");            
