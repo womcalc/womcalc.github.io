@@ -1,0 +1,47 @@
+#mode2{
+	color: silver;
+}
+.subsectionegorange p{
+	
+	padding:5px 10px;
+}
+#myfond{
+	font-family: 'Jost', sans-serif;
+}
+
+#input1,#input2,#input3,#input4,#input5{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #eee7e7;
+
+}
+#stat1{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	border:1px solid orange;
+
+
+}
+
+#linkbutton1,#button1,#button2,#button3,#button4,#button5{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Jost', sans-serif;
+	background-color: rgb(10,200,30,0.4);
+	color:#fff;
+
+}
+#output1{
+	background-color:#fff;
+	color:#123;
+	text-align: left;
+
+}
+#degrad{
+	color: #123;
+	background-color: #rgb(20,400,100)
+}

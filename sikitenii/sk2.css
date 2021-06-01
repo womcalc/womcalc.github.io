@@ -1,0 +1,23 @@
+#N1,#N2,#M1,#M2,#M3,#xvalmin1,#xcontrol,#skero,#iy,#ny,#nC,#nr,#nA,#nC1,#nr1,#iC,#ir,#iA,#iC1,#ir1,#rr,#rr1,#ND,#ND0,#R1,#AA,#R,#k2,#A,#rAmortisation,#nAmortisation,#k,#A2,#rAmortisation2,#nAmortisation2{
+	padding: 3px 3px; color: rgb(50,100,400);	
+			margin: 1px; 	border-radius: 8px; 	
+			border:0.8px solid orange; 	width: 155px; 	 	
+			font-family: cursive;  background-color:#dddddd ; 
+}
+#AA1 ,#nA1,#iA1{
+	padding: 3px 3px; color: rgb(50,100,400);	
+			margin: 1px; 	border-radius: 8px; 	
+			border:0.8px solid orange; 	
+			width: 100%; 	 	
+			font-family: cursive;  background-color:#dddddd ; 
+}
+
+#womform input{
+	padding: 3px 3px; color: #123;	
+			margin: 1px; 	border-radius: 8px; 	
+			border:0.8px solid orange; 	
+			width: 100%; 	 	
+			font-family: cursive;  
+}
+
+

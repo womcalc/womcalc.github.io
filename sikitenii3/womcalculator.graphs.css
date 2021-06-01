@@ -1,0 +1,35 @@
+@media screen and (min-width: 1200px){
+canvas{box-shadow: 0 0 9px 4px; 	
+	border-radius: 5px; 	
+	width:78%; 	
+	text-align: center; 	
+	margin-left:10%; 
+	margin-bottom: : 12px;
+	margin-top: : 12px;
+} 
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+canvas{box-shadow: 0 0 9px 4px; 	
+	border-radius: 5px; 	
+	width:78%; 	
+	text-align: center; 	
+	margin-left:10%; 
+	margin-bottom: : 12px;
+	margin-top: : 12px;
+} 
+}
+
+@media screen and (max-width: 1000px){
+
+canvas{box-shadow: 0 0 9px 4px; 	
+	border:2px solid orange; 	
+	border-radius: 5px; 	
+	width:98%; 	text-align: center; 	
+	margin-left:1%; 
+	margin-bottom: : 12px;
+	margin-top: : 12px;
+} 
+
+}
+
