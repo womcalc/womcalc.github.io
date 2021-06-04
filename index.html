@@ -345,13 +345,16 @@ file:///C:/Users/User/Music/Desktop/FINALEST%20-%20Droppages/calc/wom/index.html
 
 <script>
     function Sk10xxx(){
+      let width=screen.width;
 let arr=get(name).split('=');
 let arr0=arr[1];
 let arr1=arr0.replaceAll("%24","$");
 let arr2=arr1.replaceAll("%2C",",")
 let Q=arr2.split(',');
 
-input1.value=arr2;
+input1.value=[arr2,arr[1]][+(width<588)];
+let mes=document.getElementById('calculator');
+mes.innerHTML=['',['','Replace all "%24" with $ & "%2C" with ,  Or you can type $info() to find the topic'][+(width<588)]][+(arr[1].startsWith('%24'))];
 
     };
 </script>
